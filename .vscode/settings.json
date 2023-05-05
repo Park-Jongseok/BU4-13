@@ -1,8 +1,5 @@
 {
-    // For Prettier
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-    // For LiveServer
     "liveServer.settings.root": "/src"
 }
