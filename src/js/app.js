@@ -1,2 +1,4 @@
-console.dir(document);
-document.title = "Hello BU4-13";
+const title = document.getElementById("title");
+console.log(title);
+title.innerHTML = "こんばんは🌙";
+console.log(title.className);
