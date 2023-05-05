@@ -1,1 +1,2 @@
-alert("Hello BU4-13");
+console.dir(document);
+document.title = "Hello BU4-13";
