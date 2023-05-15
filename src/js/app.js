@@ -1,11 +1,9 @@
-const id = document.getElementById("byId");
-console.log(id);
+const title = document.querySelector(".title:first-child h1");
+console.log(title);
+console.dir(title);
 
-const classes = document.getElementsByClassName("byClass");
-console.log(classes);
+const handleClick = () => {
+    title.style.color = "orange";
+};
 
-const h1 = document.getElementsByTagName("h1");
-console.log(h1);
-
-const querySelector = document.querySelector(".byQuery h1:last-child");
-console.log(querySelector);
+title.addEventListener("click", handleClick);
